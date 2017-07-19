@@ -1,0 +1,57 @@
+{
+  "name": "spritify-example",
+  "version": "1.0.0",
+  "description": "spritify example web app using expressjs",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "build": "rm -rf ./build/ && node ./bin/run-spritify.js",
+    "build-cli": "rm -rf ./build/ && spritify -c ./spritify.config.json",
+    "test": "eslint ./bin/"
+  },
+  "engines": {
+    "node": ">= 6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shadiabuhilal/spritify-example/"
+  },
+  "bugs": {
+    "url": "https://github.com/shadiabuhilal/spritify-example/issues"
+  },
+  "homepage": "https://github.com/shadiabuhilal/spritify-example/",
+  "keywords": [
+    "spritify",
+    "sprites",
+    "sprite",
+    "css",
+    "generate",
+    "sprites",
+    "generate",
+    "sprite",
+    "spritesheet",
+    "bundle",
+    "build",
+    "ci",
+    "icon",
+    "icons",
+    "svg",
+    "jpg",
+    "png",
+    "generator",
+    "retina"
+  ],
+  "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "spritify": "^1.0.0"
+  },
+  "dependencies": {
+    "body-parser": "~1.15.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.2.0",
+    "express": "~4.14.0",
+    "hbs": "~4.0.1",
+    "morgan": "~1.7.0"
+  }
+}

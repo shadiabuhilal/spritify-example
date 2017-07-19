@@ -1,0 +1,58 @@
+<link id="stylesheet" rel='stylesheet' href='/css/example.css' />
+
+<h1>
+    <span class="logo">{{title}}</span>
+</h1>
+
+<fieldset>
+    <legend>css options:</legend>
+    <input id="chkOptimized" type="checkbox" ><label for="chkOptimized">optimized</label>
+    <input id="chkInline" type="checkbox" ><label for="chkInline">inline</label>
+</fieldset>
+<div>
+    <div class="container">
+        <h2>Sprite</h2>
+        <ul>
+            <li><span class="icon icon-airport"></span> airport</li>
+            <li><span class="icon icon-car"></span> car</li>
+            <li><span class="icon icon-home"></span> home</li>
+            <li><span class="icon icon-info"></span> info</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>SVG Sprite</h2>
+        <ul>
+            <li><span class="icon icon-star"></span> star</li>
+            <li><span class="icon icon-spiral"></span> spiral</li>
+            <li><span class="icon icon-loading"></span> loading</li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h2>Retina Sprite</h2>
+        <ul>
+            <li><span class="icon icon-settings-retina"></span> settings</li>
+            <li><span class="icon icon-wrench-retina"></span> wrench</li>
+        </ul>
+    </div>
+<div>
+
+<script>
+    var stylesheet = document.getElementById('stylesheet');
+
+    var chkOptimized = document.getElementById('chkOptimized');
+    var chkInline = document.getElementById('chkInline');
+
+    var checkOnChange = function (e) {
+
+        var href = '/css/example';
+        href += chkOptimized.checked ? '.optimize' : '';
+        href += chkInline.checked ? '.inline' : '';
+        href += '.css';
+
+        stylesheet.href = href;
+    };
+
+    chkOptimized.onchange = chkInline.onchange = (checkOnChange);
+</script>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewbox="0 0 40 40">
+    <style>
+        #anim { -webkit-animation: rotate 1s linear infinite; -moz-animation: rotate 1s linear infinite; animation: rotate 1s linear infinite; transform-origin: 20px 20px; } @-webkit-keyframes rotate { 100% { transform: rotate(360deg) } } @keyframes rotate { 100% { transform: rotate(360deg) } }
+    </style>
+    <g fill="none" stroke="#1e81cc" stroke-width="4">
+        <circle cx="50%" cy="50%" r="18" stroke-opacity="0.3"/>
+        <path id="anim" d="M20,2 A18,18 0 0,1 38,20"/>
+    </g>
+</svg>
