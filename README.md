@@ -7,7 +7,7 @@ Clone or download this repo and run it in your local machine to see how it works
 ## Steps:
 1 - Open your terminal and clone the repo into you local machine:
 ```bash
-    clone git@github.com:shadiabuhilal/spritify-example.git
+    git clone git@github.com:shadiabuhilal/spritify-example.git
     cd ./spritify-example
 ```
 2 - Install NPM packages
