@@ -44,14 +44,14 @@
   "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "spritify": "^1.0.3"
+    "spritify": "^1.0.6"
   },
   "dependencies": {
-    "body-parser": "~1.15.2",
-    "cookie-parser": "~1.4.3",
-    "debug": "~2.2.0",
-    "express": "~4.14.0",
-    "hbs": "~4.0.1",
-    "morgan": "~1.7.0"
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "express": "^4.16.2",
+    "hbs": "^4.0.1",
+    "morgan": "^1.9.0"
   }
 }
