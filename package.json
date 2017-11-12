@@ -44,7 +44,7 @@
   "author": "Shadi Abu Hilal <shadiabuhilal@gmail.com> (http://github.com/shadiabuhilal)",
   "license": "BSD-3-Clause",
   "devDependencies": {
-    "spritify": "^1.0.6"
+    "spritify": "^1.0.8"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
