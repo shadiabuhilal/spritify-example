@@ -43,7 +43,10 @@ const params = {
             /* sprite */
             padding: 10,
             algorithm: 'left-right',
-            src: 'public/images/icons',
+            src: [
+                "public/images/common/1x",
+                'public/images/icons'
+            ],
             dest: 'build/img/sprites/sprite.png',
             relative: '../img/sprites'
         },
@@ -52,7 +55,10 @@ const params = {
             padding: 15,
             retina: 2,
             algorithm: 'top-down',
-            src: 'public/images/icons@2x',
+            src: [
+                "public/images/common/2x",
+                'public/images/icons@2x'
+            ],
             dest: 'build/img/sprites/sprite@2x.png',
             relative: '../img/sprites'
         },
