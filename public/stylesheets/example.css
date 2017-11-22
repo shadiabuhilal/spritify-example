@@ -98,7 +98,7 @@ li {
 }
 
 .icon-settings-retina {
-  background: #ffffff url("../images/icons/icon-settings.GIF") no-repeat right top;
+  background: #ffffff url("../images/common/1x/icon-settings.GIF") no-repeat right top;
 }
 
 .icon-wrench-retina {
@@ -109,7 +109,7 @@ li {
 @media only screen and (-webkit-min-device-pixel-ratio: 2), not all, not all, not all, only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 
   .icon-settings-retina {
-    background: #ffffff url("../images/icons@2x/icon-settings@2x.png") no-repeat right top;
+    background: #ffffff url("../images/common/2x/icon-settings@2x.png") no-repeat right top;
   }
 
   .icon-wrench-retina {
